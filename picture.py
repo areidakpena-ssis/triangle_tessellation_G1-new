@@ -30,7 +30,9 @@ def draw_picture(width, height):
     
     
     # code for YELLOW triangles
-   
+    sg.set_fill_color(colors[5])
+    for i in range(5):
+        sg.fill_triangle(1*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 2*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 2*TRIANGLE_WIDTH, (i+1)*TRIANGLE_HEIGHT)
    
     # code for GREEN triangles
  
