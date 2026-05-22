@@ -33,7 +33,8 @@ def draw_picture(width, height):
    
    
     # code for GREEN triangles
- 
+    for i in range(5):   # fill_triangle(x1, y1, x2, y2, x3, y3)
+        sg.fill_triangle(2*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, i*TRIANGLE_HEIGHT, 3*TRIANGLE_WIDTH, (i+1)*TRIANG
  
     # code for MAGENTA triangles
     
